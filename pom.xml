@@ -1,21 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@shramanpadhalni 
-1
-3 87 ligado/hello-world-servlet
- Code  Issues 0  Pull requests 1  Projects 0  Wiki  Insights
-hello-world-servlet/pom.xml
-@ligado ligado Missed a couple files
-a3da5d8 on Jul 24, 2016
-85 lines (84 sloc)  2.5 KB
-    
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -100,15 +82,3 @@ a3da5d8 on Jul 24, 2016
         </plugins>
   </build>
 </project>
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
