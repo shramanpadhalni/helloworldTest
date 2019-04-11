@@ -76,29 +76,26 @@
         </plugins>
   </build>
   <reporting>
-    <plugins>
-      <!-- Include the unit test reports in the site -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-report-plugin</artifactId>
-        <version>3.2</version>
-      </plugin>
-      <!-- Include the various project reports in the site -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>2.4</version>
-      </plugin>
-      <!-- Include the javadoc for the classes in the site -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <version>2.8.1</version>
-        <configuration>
-          <description>The javadoc for the Package plugin classes</description>
-          <show>private</show>
-        </configuration>
-      </plugin>
+        <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-report-plugin</artifactId>
+            <version>2.22.0</version>
+            <configuration>
+                <showSuccess>true</showSuccess>
+                <outputName>Reports</outputName>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <version>3.7.1</version>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jxr-plugin</artifactId>
+            <version>2.5</version>
+        </plugin>
     </plugins>
-  </reporting>
+    </reporting>
 </project>
